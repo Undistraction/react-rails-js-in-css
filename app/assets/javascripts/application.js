@@ -13,3 +13,8 @@
 //= require rails-ujs
 //= require activestorage
 //= require_tree .
+
+document.addEventListener('DOMContentLoaded', function(event) {
+  const styleElement = document.querySelector('body style')
+  document.head.appendChild(styleElement)
+})
